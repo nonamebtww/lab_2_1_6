@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AIAssistantCustomInstructionsStorage">
+    <option name="instructions">
+      <map>
+        <entry key="AIAssistant.VCS.GenerateCommitMessage">
+          <value>
+            <AIAssistantStoredInstruction>
+              <option name="actionId" value="AIAssistant.VCS.GenerateCommitMessage" />
+              <option name="content" value="---&#10;description: Generate commit message&#10;---&#10;&#10;RULES:&#10;- Check all changed files content.&#10;- For list use '-' insted of circle characted.&#10;- Generate few convertional commit messages, if changes extremly large.&#10;- Try to minimize text mas as possible.&#10;- Generate message in block which user can copy with button. Like: '```'.&#10;- Do not analyze chat history or something else. Only VCS status.&#10;&#10;Analyze all changed files with Git VCS. Generate convertional commit message based on changes. Geneate up to 5 commit message with different detalization, from max detalization to lower detalization." />
+            </AIAssistantStoredInstruction>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="GHAISettings">{}</component>
+</project>

@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{803C2468-3ABC-4E38-ACA9-997AD2EEA6F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{98D18715-2652-4790-821A-3384513EC8B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console", "Console\Console.csproj", "{4AAF581D-7467-4536-8800-4A6A6D0B3A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinUi", "WinUi\WinUi.csproj", "{35A0E434-38FF-4069-BB1A-9CC40154DB42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98D18715-2652-4790-821A-3384513EC8B5} = {803C2468-3ABC-4E38-ACA9-997AD2EEA6F7}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98D18715-2652-4790-821A-3384513EC8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98D18715-2652-4790-821A-3384513EC8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98D18715-2652-4790-821A-3384513EC8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98D18715-2652-4790-821A-3384513EC8B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AAF581D-7467-4536-8800-4A6A6D0B3A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AAF581D-7467-4536-8800-4A6A6D0B3A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AAF581D-7467-4536-8800-4A6A6D0B3A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AAF581D-7467-4536-8800-4A6A6D0B3A29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35A0E434-38FF-4069-BB1A-9CC40154DB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A0E434-38FF-4069-BB1A-9CC40154DB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A0E434-38FF-4069-BB1A-9CC40154DB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A0E434-38FF-4069-BB1A-9CC40154DB42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
