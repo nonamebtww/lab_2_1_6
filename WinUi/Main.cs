@@ -27,6 +27,7 @@ public partial class Main : Form {
         ShowPage(new Task2Page());
         break;
       case 2:
+        ShowPage(new Task3Page());
         break;
     }
   }
